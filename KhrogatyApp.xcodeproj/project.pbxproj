@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76664EC7233E3AA8006DC1D5 /* RestrauntsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76664EC6233E3AA8006DC1D5 /* RestrauntsCollectionCell.swift */; };
+		76664EC9233E6415006DC1D5 /* CommentsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76664EC8233E6415006DC1D5 /* CommentsTableCell.swift */; };
+		76664ECB233E72D1006DC1D5 /* Comments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76664ECA233E72D1006DC1D5 /* Comments.swift */; };
+		76664ECE233EAF4B006DC1D5 /* Activities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76664ECD233EAF4B006DC1D5 /* Activities.swift */; };
 		766F421B233AC557009D741F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F421A233AC557009D741F /* AppDelegate.swift */; };
-		766F421D233AC557009D741F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F421C233AC557009D741F /* ViewController.swift */; };
+		766F421D233AC557009D741F /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F421C233AC557009D741F /* HomeVC.swift */; };
 		766F4220233AC557009D741F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766F421E233AC557009D741F /* Main.storyboard */; };
 		766F4223233AC557009D741F /* KhrogatyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 766F4221233AC557009D741F /* KhrogatyApp.xcdatamodeld */; };
 		766F4225233AC558009D741F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 766F4224233AC558009D741F /* Assets.xcassets */; };
 		766F4228233AC558009D741F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 766F4226233AC558009D741F /* LaunchScreen.storyboard */; };
+		766F4233233B87BA009D741F /* TutorialScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4232233B87BA009D741F /* TutorialScreenOne.swift */; };
+		766F4235233B87C5009D741F /* TutorialScreenTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4234233B87C5009D741F /* TutorialScreenTwo.swift */; };
+		766F4237233B87CE009D741F /* TutorialScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4236233B87CE009D741F /* TutorialScreenThree.swift */; };
+		766F4239233BFC05009D741F /* RestrauntsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4238233BFC05009D741F /* RestrauntsVC.swift */; };
+		766F423C233BFC4A009D741F /* RestrauntsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F423B233BFC4A009D741F /* RestrauntsTableCell.swift */; };
+		766F4240233C1675009D741F /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F423F233C1675009D741F /* APIs.swift */; };
+		766F4242233C17D2009D741F /* PlacesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4241233C17D2009D741F /* PlacesModel.swift */; };
+		766F4244233C2251009D741F /* PlacesToGoTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4243233C2251009D741F /* PlacesToGoTableCell.swift */; };
+		766F4246233CE47A009D741F /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4245233CE47A009D741F /* URLs.swift */; };
+		766F4248233CE789009D741F /* PlacesToGoCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766F4247233CE789009D741F /* PlacesToGoCollectionCell.swift */; };
+		76E231C6233D45FC0096BF39 /* RestrauntsDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E231C5233D45FC0096BF39 /* RestrauntsDetailsVC.swift */; };
+		76E231CA233D4B590096BF39 /* Restraunts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76E231C9233D4B590096BF39 /* Restraunts.swift */; };
+		AAC9A9D150394084B0B9992C /* Pods_KhrogatyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90CBE3E49C1659BB31E8D89E /* Pods_KhrogatyApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BA7CE289D8D7093DFE35ED0 /* Pods-KhrogatyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhrogatyApp.release.xcconfig"; path = "Target Support Files/Pods-KhrogatyApp/Pods-KhrogatyApp.release.xcconfig"; sourceTree = "<group>"; };
+		76664EC6233E3AA8006DC1D5 /* RestrauntsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntsCollectionCell.swift; sourceTree = "<group>"; };
+		76664EC8233E6415006DC1D5 /* CommentsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsTableCell.swift; sourceTree = "<group>"; };
+		76664ECA233E72D1006DC1D5 /* Comments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comments.swift; sourceTree = "<group>"; };
+		76664ECD233EAF4B006DC1D5 /* Activities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Activities.swift; sourceTree = "<group>"; };
 		766F4217233AC557009D741F /* KhrogatyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KhrogatyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766F421A233AC557009D741F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		766F421C233AC557009D741F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		766F421C233AC557009D741F /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		766F421F233AC557009D741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		766F4222233AC557009D741F /* KhrogatyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KhrogatyApp.xcdatamodel; sourceTree = "<group>"; };
 		766F4224233AC558009D741F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		766F4227233AC558009D741F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		766F4229233AC558009D741F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		766F4232233B87BA009D741F /* TutorialScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScreenOne.swift; sourceTree = "<group>"; };
+		766F4234233B87C5009D741F /* TutorialScreenTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScreenTwo.swift; sourceTree = "<group>"; };
+		766F4236233B87CE009D741F /* TutorialScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialScreenThree.swift; sourceTree = "<group>"; };
+		766F4238233BFC05009D741F /* RestrauntsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntsVC.swift; sourceTree = "<group>"; };
+		766F423B233BFC4A009D741F /* RestrauntsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntsTableCell.swift; sourceTree = "<group>"; };
+		766F423F233C1675009D741F /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		766F4241233C17D2009D741F /* PlacesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesModel.swift; sourceTree = "<group>"; };
+		766F4243233C2251009D741F /* PlacesToGoTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesToGoTableCell.swift; sourceTree = "<group>"; };
+		766F4245233CE47A009D741F /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		766F4247233CE789009D741F /* PlacesToGoCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesToGoCollectionCell.swift; sourceTree = "<group>"; };
+		76E231C5233D45FC0096BF39 /* RestrauntsDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestrauntsDetailsVC.swift; sourceTree = "<group>"; };
+		76E231C9233D4B590096BF39 /* Restraunts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restraunts.swift; sourceTree = "<group>"; };
+		90CBE3E49C1659BB31E8D89E /* Pods_KhrogatyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KhrogatyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2E5F14E233EABEFB89B1ACB /* Pods-KhrogatyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KhrogatyApp.debug.xcconfig"; path = "Target Support Files/Pods-KhrogatyApp/Pods-KhrogatyApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC9A9D150394084B0B9992C /* Pods_KhrogatyApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		091A4FC2888FEDBEFF2C2C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90CBE3E49C1659BB31E8D89E /* Pods_KhrogatyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56D45E4F97385E3E2C56BAA6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2E5F14E233EABEFB89B1ACB /* Pods-KhrogatyApp.debug.xcconfig */,
+				0BA7CE289D8D7093DFE35ED0 /* Pods-KhrogatyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		76664ECC233E88F6006DC1D5 /* Restraunts Details */ = {
+			isa = PBXGroup;
+			children = (
+				76664EC8233E6415006DC1D5 /* CommentsTableCell.swift */,
+			);
+			path = "Restraunts Details";
+			sourceTree = "<group>";
+		};
 		766F420E233AC557009D741F = {
 			isa = PBXGroup;
 			children = (
 				766F4219233AC557009D741F /* KhrogatyApp */,
 				766F4218233AC557009D741F /* Products */,
+				56D45E4F97385E3E2C56BAA6 /* Pods */,
+				091A4FC2888FEDBEFF2C2C49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +120,103 @@
 		766F4219233AC557009D741F /* KhrogatyApp */ = {
 			isa = PBXGroup;
 			children = (
-				766F421A233AC557009D741F /* AppDelegate.swift */,
-				766F421C233AC557009D741F /* ViewController.swift */,
+				766F4231233AC610009D741F /* Supporting Files */,
+				766F423E233C164A009D741F /* APIs */,
+				766F423D233C163B009D741F /* Models */,
+				766F422F233AC5E5009D741F /* View */,
+				766F4230233AC5F2009D741F /* Controllers */,
+			);
+			path = KhrogatyApp;
+			sourceTree = "<group>";
+		};
+		766F422F233AC5E5009D741F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				766F4226233AC558009D741F /* LaunchScreen.storyboard */,
 				766F421E233AC557009D741F /* Main.storyboard */,
 				766F4224233AC558009D741F /* Assets.xcassets */,
-				766F4226233AC558009D741F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		766F4230233AC5F2009D741F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				766F423A233BFC23009D741F /* Cells  */,
+				766F4232233B87BA009D741F /* TutorialScreenOne.swift */,
+				766F4234233B87C5009D741F /* TutorialScreenTwo.swift */,
+				766F4236233B87CE009D741F /* TutorialScreenThree.swift */,
+				766F421C233AC557009D741F /* HomeVC.swift */,
+				766F4238233BFC05009D741F /* RestrauntsVC.swift */,
+				76E231C5233D45FC0096BF39 /* RestrauntsDetailsVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		766F4231233AC610009D741F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				766F421A233AC557009D741F /* AppDelegate.swift */,
 				766F4229233AC558009D741F /* Info.plist */,
 				766F4221233AC557009D741F /* KhrogatyApp.xcdatamodeld */,
 			);
-			path = KhrogatyApp;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		766F423A233BFC23009D741F /* Cells  */ = {
+			isa = PBXGroup;
+			children = (
+				766F4249233D3DE4009D741F /* Places to go  */,
+				766F424A233D3DEF009D741F /* Restraunts */,
+				766F424C233D3E16009D741F /* Activites */,
+				76664ECC233E88F6006DC1D5 /* Restraunts Details */,
+			);
+			path = "Cells ";
+			sourceTree = "<group>";
+		};
+		766F423D233C163B009D741F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				766F4241233C17D2009D741F /* PlacesModel.swift */,
+				76E231C9233D4B590096BF39 /* Restraunts.swift */,
+				76664ECD233EAF4B006DC1D5 /* Activities.swift */,
+				76664ECA233E72D1006DC1D5 /* Comments.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		766F423E233C164A009D741F /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				766F423F233C1675009D741F /* APIs.swift */,
+				766F4245233CE47A009D741F /* URLs.swift */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
+		766F4249233D3DE4009D741F /* Places to go  */ = {
+			isa = PBXGroup;
+			children = (
+				766F4243233C2251009D741F /* PlacesToGoTableCell.swift */,
+				766F4247233CE789009D741F /* PlacesToGoCollectionCell.swift */,
+			);
+			path = "Places to go ";
+			sourceTree = "<group>";
+		};
+		766F424A233D3DEF009D741F /* Restraunts */ = {
+			isa = PBXGroup;
+			children = (
+				766F423B233BFC4A009D741F /* RestrauntsTableCell.swift */,
+				76664EC6233E3AA8006DC1D5 /* RestrauntsCollectionCell.swift */,
+			);
+			path = Restraunts;
+			sourceTree = "<group>";
+		};
+		766F424C233D3E16009D741F /* Activites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Activites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +226,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 766F422C233AC558009D741F /* Build configuration list for PBXNativeTarget "KhrogatyApp" */;
 			buildPhases = (
+				BD6FDCC64F2CCC191C78FF22 /* [CP] Check Pods Manifest.lock */,
 				766F4213233AC557009D741F /* Sources */,
 				766F4214233AC557009D741F /* Frameworks */,
 				766F4215233AC557009D741F /* Resources */,
+				46FAC3B75F9171792F926835 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +287,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46FAC3B75F9171792F926835 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KhrogatyApp/Pods-KhrogatyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KhrogatyApp/Pods-KhrogatyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KhrogatyApp/Pods-KhrogatyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6FDCC64F2CCC191C78FF22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KhrogatyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		766F4213233AC557009D741F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				766F421D233AC557009D741F /* ViewController.swift in Sources */,
+				76664EC7233E3AA8006DC1D5 /* RestrauntsCollectionCell.swift in Sources */,
+				766F4237233B87CE009D741F /* TutorialScreenThree.swift in Sources */,
+				76664ECE233EAF4B006DC1D5 /* Activities.swift in Sources */,
+				766F4233233B87BA009D741F /* TutorialScreenOne.swift in Sources */,
+				766F423C233BFC4A009D741F /* RestrauntsTableCell.swift in Sources */,
+				766F421D233AC557009D741F /* HomeVC.swift in Sources */,
 				766F421B233AC557009D741F /* AppDelegate.swift in Sources */,
+				766F4239233BFC05009D741F /* RestrauntsVC.swift in Sources */,
 				766F4223233AC557009D741F /* KhrogatyApp.xcdatamodeld in Sources */,
+				766F4248233CE789009D741F /* PlacesToGoCollectionCell.swift in Sources */,
+				766F4246233CE47A009D741F /* URLs.swift in Sources */,
+				766F4240233C1675009D741F /* APIs.swift in Sources */,
+				76664ECB233E72D1006DC1D5 /* Comments.swift in Sources */,
+				766F4244233C2251009D741F /* PlacesToGoTableCell.swift in Sources */,
+				766F4235233B87C5009D741F /* TutorialScreenTwo.swift in Sources */,
+				76E231C6233D45FC0096BF39 /* RestrauntsDetailsVC.swift in Sources */,
+				766F4242233C17D2009D741F /* PlacesModel.swift in Sources */,
+				76E231CA233D4B590096BF39 /* Restraunts.swift in Sources */,
+				76664EC9233E6415006DC1D5 /* CommentsTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,11 +496,12 @@
 		};
 		766F422D233AC558009D741F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2E5F14E233EABEFB89B1ACB /* Pods-KhrogatyApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99V88B8FU7;
-				INFOPLIST_FILE = KhrogatyApp/Info.plist;
+				INFOPLIST_FILE = "KhrogatyApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,11 +515,12 @@
 		};
 		766F422E233AC558009D741F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BA7CE289D8D7093DFE35ED0 /* Pods-KhrogatyApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 99V88B8FU7;
-				INFOPLIST_FILE = KhrogatyApp/Info.plist;
+				INFOPLIST_FILE = "KhrogatyApp/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
